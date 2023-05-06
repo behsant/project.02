@@ -1,0 +1,43 @@
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 250px;
+    
+}
+.container-task{
+    display: flex;
+    justify-content: center;
+}
+
+.fundo{
+   background-color:rgb(209, 208, 208);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   width: 350px;
+   margin-top: 10px;
+   gap: 5px;
+   padding: 10px;
+   border-radius: 8px;
+  
+}
+
+.linha{
+    background-color: rgb(197, 189, 189);
+    padding: 1px;
+    width: 100%;
+}
+
+.task{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.icon-delete{
+    cursor: pointer;
+}
